@@ -1,0 +1,76 @@
+.ana-container2{
+    background-color: #222240;
+    width: 45%;
+    padding: 20px;
+    box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+    border-radius: 12px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+.heading2{
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.details div{
+    padding-left: 20px;
+}
+.body2{
+    font-family: 'Inter';
+    width: 80%;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    right: 10px;
+}
+.attach{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+  @media(max-width: 1056px){
+    .heading2{
+        display: flex;
+        flex-direction: column;
+    }
+    .ana-container2{
+        width: 40%;
+        margin-left: 40px;
+    }
+    .heading2{
+        font-family: 'Inter';
+        font-size: 10px;
+    }
+   
+  }
+  @media(max-width: 756px){
+    .ana-container2{
+        background-color: #222240;
+        height: 300px;
+        width: 80%;
+        margin-left: 0;
+    }
+    .body2{
+        width: 75%;
+    }
+  }

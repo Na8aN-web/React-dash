@@ -1,0 +1,29 @@
+.section-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sect-contain{
+    width: 45%;
+}
+@media(max-width: 1056px){
+    .section-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .sect-contain{
+        width: 40%;
+    }
+  }
+
+@media(max-width: 756px){
+    .section-page{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .sect-contain{
+        width: 100%;
+    }
+  }
+

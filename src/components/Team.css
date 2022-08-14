@@ -1,0 +1,107 @@
+.ana-container3{
+    background-color: #222240;
+    width: 56%;
+    height: 350px;
+    padding: 20px;
+    box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+    border-radius: 12px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+.heading3{
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.details div{
+    padding-left: 20px;
+}
+.body3{
+    font-family: 'Inter';
+    width: 94%;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    margin-right: auto;
+    position: absolute;
+    bottom: 20px;
+}
+.team-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-one {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.image-two{
+    position: absolute;
+    width: 100%;
+    bottom: 82px;
+}
+.tooltip {
+    position: relative;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+
+    background: #222240;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    bottom: 180px;
+    right: 135px;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  @media(max-width: 1056px){
+    .ana-container3{
+        width: 40%;
+    }
+    .body3{
+        width: 84%;
+    }
+  }
+
+  @media(max-width: 756px){
+    .ana-container3{
+        width: 80%;
+        height: 300px;
+    }
+    .body3{
+        width: 90%;
+    }
+  }

@@ -1,0 +1,117 @@
+.ana-container4{
+    background-color: #222240;
+    width: 30%;
+    padding: 20px;
+    height: 350px;
+    box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+    border-radius: 12px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+.heading4{
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.body4{
+    font-family: 'Inter';
+    width: 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    margin-right: auto;
+}
+.emp-image{
+  padding-right: 15px;
+}
+.person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+}
+.normal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.normal p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(144, 144, 186, 0.74);
+}
+.normal h4{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.star-person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.star-person p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(144, 144, 186, 0.74);
+}
+.star-person h4{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.star-image{
+    position: absolute;
+    left: 45px;
+    top: -10px;
+}
+.score{
+    background: rgba(17, 60, 94, 0.5);
+    border-radius: 4px;
+    color: #00ADE1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+@media(max-width: 1056px){
+    .star-person p{
+        font-size: 10px;
+    }
+    .star-person h4{
+        font-size: 14px;
+    }
+    .ana-container4{
+        width: 40%;
+       
+    }
+  }
+  @media(max-width: 756px){
+    .ana-container4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+        
+    }
+  }
